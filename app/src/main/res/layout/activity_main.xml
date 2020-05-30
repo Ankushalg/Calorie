@@ -38,7 +38,7 @@
             android:textStyle="bold"
             android:gravity="center_horizontal"
             android:drawableTop="@drawable/ic_bmi_24dp"
-            android:text="BMI"
+            android:text="@string/bmi"
             android:layout_height="wrap_content"/>
 
         <TextView
@@ -54,7 +54,7 @@
             android:textStyle="bold"
             android:gravity="center_horizontal"
             android:drawableTop="@drawable/ic_bmi_black_24dp"
-            android:text="BMI"
+            android:text="@string/bmi"
             android:layout_height="wrap_content"/>
 
         <TextView
@@ -70,7 +70,7 @@
             android:id="@+id/m_t3"
             android:gravity="center_horizontal"
             android:drawableTop="@drawable/ic_whatshot_24dp"
-            android:text="Calorie"
+            android:text="@string/calorie"
             android:layout_height="wrap_content"/>
 
         <TextView
@@ -85,7 +85,7 @@
             android:textStyle="bold"
             android:gravity="center_horizontal"
             android:drawableTop="@drawable/ic_whatshot_black_24dp"
-            android:text="Calorie"
+            android:text="@string/calorie"
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
