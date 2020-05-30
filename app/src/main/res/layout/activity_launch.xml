@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_dark_blue"
+    tools:context=".LaunchActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_height="0dp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:textSize="34sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="44dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
