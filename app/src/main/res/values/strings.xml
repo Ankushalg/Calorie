@@ -2,4 +2,7 @@
     <string name="app_name">Calorie</string>
     <string name="bmi">BMI</string>
     <string name="calorie">Calorie</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
