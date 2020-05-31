@@ -141,7 +141,7 @@
                         android:textColor="@color/colorWhite"
                         android:textSize="18sp"
                         android:text="@string/_return"
-                        android:id="@+id/bBmiReturn"
+                        android:id="@+id/bReturn"
                         android:layout_marginBottom="24dp"
                         android:layout_width="match_parent"
                         android:background="@color/colorPrimary"
