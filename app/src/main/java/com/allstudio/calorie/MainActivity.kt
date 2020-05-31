@@ -20,13 +20,13 @@ class MainActivity : AppCompatActivity() {
             override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {}
             override fun onPageSelected(position: Int) {
                 if(position == 0){
-                    t2.visibility = View.VISIBLE
-                    t1.visibility = View.GONE
+                    t1.visibility = View.VISIBLE
+                    t2.visibility = View.GONE
                     t3.visibility = View.GONE
                     t4.visibility = View.VISIBLE
                 } else {
-                    t2.visibility = View.GONE
-                    t1.visibility = View.VISIBLE
+                    t1.visibility = View.GONE
+                    t2.visibility = View.VISIBLE
                     t3.visibility = View.VISIBLE
                     t4.visibility = View.GONE
                 }
