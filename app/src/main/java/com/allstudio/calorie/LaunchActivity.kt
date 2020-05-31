@@ -15,6 +15,7 @@ class LaunchActivity : AppCompatActivity() {
             override fun onFinish(){
                 val i = Intent(this@LaunchActivity, MainActivity::class.java)
                 startActivity(i)
+                finish()
             }
         }.start()
     }
