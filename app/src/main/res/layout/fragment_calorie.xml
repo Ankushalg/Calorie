@@ -1,9 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
+    android:background="@color/transparent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CalorieFragment">
+    <androidx.cardview.widget.CardView
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="16dp"
+        android:paddingBottom="34dp"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    android:id="@+id/lCal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/calorie_calculator"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="24dp"
+                        android:textSize="24sp"
+                        android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content"/>
+                    <LinearLayout
+                        android:layout_margin="8dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/exercise"
+                        android:layout_marginTop="34dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_height="wrap_content"/>
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="24dp"
+                        android:spinnerMode="dropdown"
+                        android:id="@+id/spinner"
+                        android:layout_height="34dp"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/time_in_minutes"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_height="wrap_content"/>
+                    <EditText
+                        android:id="@+id/eTime"
+                        android:inputType="numberDecimal"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="24dp"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:layout_marginTop="44dp"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:text="@string/calculate"
+                        android:id="@+id/bCalculate"
+                        android:layout_marginBottom="24dp"
+                        android:layout_width="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/lResults"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginTop="16dp"
+                        android:layout_width="wrap_content"
+                        android:text="@string/calorie_burned"
+                        android:textSize="24sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_height="wrap_content"/>
+                    <LinearLayout
+                        android:layout_margin="8dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/work"
+                        android:textSize="16sp"
+                        android:layout_marginTop="34dp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textSize="24sp"
+                        android:text="@string/cycling"
+                        android:id="@+id/tWork"
+                        android:textColor="@color/colorAccent"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="24dp"
+                        android:layout_height="wrap_content"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/time"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textSize="24sp"
+                        android:id="@+id/tTime"
+                        android:text="@string/_50_minutes"
+                        android:textColor="@color/colorAccent"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="24dp"
+                        android:layout_height="wrap_content"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/calorie_burned"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textSize="24sp"
+                        android:id="@+id/tBurn"
+                        android:text="@string/_226_cal"
+                        android:textColor="@color/colorAccent"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="24dp"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:layout_marginTop="44dp"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:text="@string/_return"
+                        android:id="@+id/bReturn"
+                        android:layout_marginBottom="24dp"
+                        android:layout_width="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
 </LinearLayout>

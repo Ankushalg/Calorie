@@ -5,4 +5,23 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="height_in_centimeter">Height (in centimeter)</string>
+    <string name="weight_in_kilogram">Weight (in kilogram)</string>
+    <string name="bmi_results">BMI Results</string>
+    <string name="_15_2">15.2</string>
+    <string name="category">Category</string>
+    <string name="severely_underweight">Severely underweight</string>
+    <string name="_return">Return</string>
+    <string name="bmi_index">BMI Index</string>
+    <string name="calorie_calculator">Calorie Calculator</string>
+    <string name="exercise">Exercise</string>
+    <string name="time_in_minutes">Time (in minutes)</string>
+    <string name="calculate">Calculate</string>
+     <string name="work">Work</string>
+    <string name="cycling">Cycling</string>
+    <string name="_50_minutes">50 Minutes</string>
+    <string name="time">Time</string>
+    <string name="calorie_burned">Calorie Burned</string>
+    <string name="_226_cal">226 CAL</string>
 </resources>
